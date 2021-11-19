@@ -56,3 +56,32 @@ echo :
 This command used for displaying lines of text which are passed as an arguments on the command line
 cat <file name> :
 This command used for displaying the text of a file
+u+x :
+It represents the executable permission for user 
+Its usage ---> chmod u+x <filename>
+u+r :
+It represents the read permission for user
+Its usage ---> chmod u+r <filename>
+u+w :
+It represents the write permission for user
+Its usage ---> chmod u+w <filename>
+g+x :
+This represents the executable permission for groups
+Its usage ---> chmod g+x <filename>
+g+w :
+This represents the write permission for groups
+Its usage ---> chmod g+w <filename>
+g+r :
+This represents the read permission for groups
+Its usage ---> chmod g+r <filename>
+o+x :
+This represents the executable permission for other users
+Its usage ---> chmod o+x <filename>
+o+r :
+This represents the read permission for other users
+Its usage ---> chmod o+r <filename>
+o+w :
+This represents the write permission for other users
+Its usage ---> chmod o+w <filename>
+"In the same way if we replace '-' in the above cases then it means removes permissonto a file or directory
+- :  This symbol represents no access for permission
